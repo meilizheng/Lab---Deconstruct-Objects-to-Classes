@@ -11,7 +11,20 @@
             Water_bottle waterbottle = new Water_bottle(Water_bottle.Shape.Rectangular, "Ello", "Aluminum", 14, "Double Wall");
             Console.WriteLine(waterbottle.ToString ());
             Notebook notebook = new Notebook(Notebook.Condition.New, "Oxford", "A4", "95", 140);
-            Console.WriteLine(notebook.ToString ());
+            Console.WriteLine(notebook.ToString ());           
+            List <string> theme1 = new List<string>();
+            theme1.Add("-> Airplane\n");
+            theme1.Add("-> Animal\n");
+            theme1.Add("-> Beach\n");
+            theme1.Add("-> Cartoon\n");
+            theme1.Add("-> Easter\n");
+            theme1.Add("-> Christmas\n");
+            theme1.Add("-> Forest\n");
+            theme1.Add("-> Music\n");
+            theme1.Add("-> Movie\n");
+            theme1.Add("-> Sport\n");
+            Alarm_clock alarmclock = new Alarm_clock(theme1, Alarm_clock.PowerSourceType.Electric, Alarm_clock.DisplayType.Digital, "Philips", "Irregular", "Glass", 29.99);
+            Console.WriteLine(alarmclock.ToString ());
         }
     }
 }
