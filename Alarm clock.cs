@@ -5,11 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+//Meili Zheng;
+//4/9/2023;
+//Lab- Deconstruct Objects to Classes;
 
 namespace Lab___Deconstruct_Objects_to_Classes
 {
+    //Create a alarm clock class; 
     public class Alarm_clock
     {
+        //create filed;
         public enum DisplayType { Analog, Digital}
         public enum PowerSourceType { Battery, Electric, Solar}
         List<string> Theme;
@@ -20,7 +25,7 @@ namespace Lab___Deconstruct_Objects_to_Classes
         string _Material;
         double _Price;
       
-
+        //create constructor;
         public Alarm_clock(List<string> theme, PowerSourceType powerSourceType, DisplayType displayType, string brand, string shape, string material, double price)
         {
             Theme = theme;
@@ -32,6 +37,7 @@ namespace Lab___Deconstruct_Objects_to_Classes
             _Price = price;
         }
 
+        //create property;
         public List<string> Theme1 { get => Theme; set => Theme = value; }
         public PowerSourceType PowerSourceType1 { get => powerSourceType; set => powerSourceType = value; }
         public DisplayType DisplayType1 { get => _displayType; set => _displayType = value; }
@@ -40,6 +46,7 @@ namespace Lab___Deconstruct_Objects_to_Classes
         public string Material { get => _Material; set => _Material = value; }
         public double Price { get => _Price; set => _Price = value; }      
 
+        //format display result;
         public override string ToString()
         {
             string result =$"Alarm Clock Material: {_Material}\n";

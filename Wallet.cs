@@ -26,7 +26,7 @@ namespace Lab___Deconstruct_Objects_to_Classes
 
         public override string ToString()
         {
-            return $"Wallet Material: {_Material}   \nWallet Price: {_Price}    \nWallet Style: {_Style}    \nWallet Compartment Type: {_CompartmentType}   \nCare Instruction: {_careInstructions}\n";
+            return $"Wallet Material: {_Material}   \nWallet Price: ${_Price}    \nWallet Style: {_Style}    \nWallet Compartment Type: {_CompartmentType}   \nCare Instruction: {_careInstructions}\n";
         }
 
     }

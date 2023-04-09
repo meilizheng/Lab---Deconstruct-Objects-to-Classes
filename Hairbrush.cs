@@ -33,7 +33,7 @@ namespace Lab___Deconstruct_Objects_to_Classes
 
         public override string ToString()
         {
-            return $"Brush Material: {_Material}    \nBrush Benifit: {_ProductBenifit}  \nBrhsb Color: {_Color} \nHair Type: {_HairType}    \nFor: {this.gender}\n";
+            return $"Brush Material: {_Material}    \nBrush Benifit: {_ProductBenifit}  \nBrush Color: {_Color} \nHair Type: {_HairType}    \nFor: {this.gender}\n";
         }
     }
 }
