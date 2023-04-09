@@ -8,7 +8,7 @@
             Hairbrush hairbrush = new Hairbrush(Hairbrush.Gender.women, "Wood", "Curly", "Pink", "Shine Enhancing");
             //display result;
             Console.WriteLine(hairbrush.ToString());
-            Wallet wallet = new Wallet(Wallet.CareInstructions.MachineWash, "Fabric", 50.50, "Classic", "Credit Card");
+            Wallet wallet = new Wallet(Wallet.CareInstructions.MachineWash, "Fabric", 59.90, "Classic", "Credit Card");
             Console.WriteLine(wallet.ToString ());
             Water_bottle waterbottle = new Water_bottle(Water_bottle.Shape.Rectangular, "Ello", "Aluminum", 14, "Double Wall");
             Console.WriteLine(waterbottle.ToString ());
